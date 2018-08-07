@@ -1,4 +1,4 @@
-# REACT-NATIVE
+# REACT-NATIVE SAMPLES
 
 Please run npm install before to play with any of these basic apps.
 
