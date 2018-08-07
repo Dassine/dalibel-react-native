@@ -1,0 +1,18 @@
+{
+  "name": "dalibel-chat",
+  "version": "0.0.0",
+  "description": "Chat application",
+  "author": null,
+  "private": true,
+  "main": "node_modules/expo/AppEntry.js",
+  "dependencies": {
+    "expo": "^28.0.0",
+    "firebase": "^5.3.1",
+    "react": "16.3.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-28.0.0.tar.gz",
+    "react-native-elements": "0.18.5",
+    "react-native-firebase": "^4.3.8",
+    "react-native-gifted-chat": "^0.4.3",
+    "react-navigation": "^2.11.2"
+  }
+}
