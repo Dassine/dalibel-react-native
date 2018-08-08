@@ -9,12 +9,12 @@ class Fire {
   
   init = () =>
     firebase.initializeApp({
-        apiKey: "AIzaSyDmNfN7_DwJ7TOSsNkncpqAT9H5doXGzlU",
-        authDomain: "mylearning-193601.firebaseapp.com",
-        databaseURL: "https://mylearning-193601.firebaseio.com",
-        projectId: "mylearning-193601",
-        storageBucket: "mylearning-193601.appspot.com",
-        messagingSenderId: "961798768308"
+        apiKey: "AIzaSyBe3r4r3H5QJo2GoGtrUa3KBHZKFgBVm1U",
+        authDomain: "dalibel-chat.firebaseapp.com",
+        databaseURL: "https://dalibel-chat.firebaseio.com",
+        projectId: "dalibel-chat",
+        storageBucket: "dalibel-chat.appspot.com",
+        messagingSenderId: "616012110056"
     });
 
     observeAuth = () =>
@@ -41,12 +41,12 @@ class Fire {
     
 
     parse = snapshot => {
-        // 1.
+
         const { timestamp: numberStamp, text, user } = snapshot.val();
         const { key: _id } = snapshot;
-        // 2.
+     
         const timestamp = new Date(numberStamp);
-        // 3.
+     
         const message = {
           _id,
           timestamp,
@@ -71,7 +71,7 @@ class Fire {
     send = messages => {
         for (let i = 0; i < messages.length; i++) {
         const { text, user } = messages[i];
-        // 4.
+    
         const message = {
             text,
             user,
