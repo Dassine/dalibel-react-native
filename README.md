@@ -8,5 +8,3 @@ Please run npm install before to play with any of these basic apps.
 
 - Photo Publisher App: using Expo + React Native + Firebase
 
-- Photo Publisher App: using Expo + React Native + Firebase
-
